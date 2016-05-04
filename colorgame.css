@@ -1,0 +1,40 @@
+#red{
+  background-color: red;
+    display: inline-block;
+    height: 200px;
+    width:200px
+
+  }
+  #green{
+    background-color: green;
+      display: inline-block;
+      height: 200px;
+      width:200px
+
+    }
+    #yellow{
+      background-color: yellow;
+        display: inline-block;
+        height: 200px;
+        width:200px
+
+      }
+      #blue{
+        background-color: blue;
+          display: inline-block;
+          height: 200px;
+          width:200px
+
+        }
+        #peachpuff{
+          background-color: peachpuff;
+            display: inline-block;
+            height: 200px;
+            width:200px
+
+
+
+        }
+span{
+  padding 0;
+}
