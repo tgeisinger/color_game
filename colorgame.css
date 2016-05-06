@@ -4,6 +4,7 @@
     height: 200px;
     width:200px
 
+
   }
   #green{
     background-color: green;
@@ -26,7 +27,7 @@
           width:200px
 
         }
-        #peachpuff{
+        #peachpuff {
           background-color: peachpuff;
             display: inline-block;
             height: 200px;
@@ -37,4 +38,13 @@
         }
 span{
   padding 0;
+}
+#answer{
+  font-size:30px;
+
+}
+#red:hover, #green:hover, #yellow:hover, #blue:hover, #peachpuff:hover {
+  opacity: 0.5;
+  cursor:pointer;
+
 }

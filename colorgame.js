@@ -14,15 +14,16 @@ $(document).ready(function() {
 
     $('#start span').on('click', function() {
         if ($(this).attr('id') == color) {
-            $('#answer').text("Great Job!")
+            alert("Great Job, Click ok to play again")
             color = colorOptions[Math.floor(Math.random() * colorOptions.length)];
             $('#color').text('Click on ' + color)
+            $('#answer').text('');
 
         } else {
-            $('#answer').text("You Lose");
+            $('#answer').text("Try Again");
 
-            color = colorOptions[Math.floor(Math.random() * colorOptions.length)];
-            $('#color').text('Click on ' + color)
+            //color = colorOptions[Math.floor(Math.random() * colorOptions.length)];
+            //$('#color').text('Click on ' + color)
 
         }
 
